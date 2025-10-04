@@ -143,18 +143,10 @@ pip install transformers datasets torch sentence-transformers scikit-learn nltk 
 
 ---
 
-## 👩‍💻 Author
-
-**[Ahmad Abdullah]**
-University of Trier – Department of Computerlinguistik und Digital Humanities
-Module: [Natural Language Processing]
-Term Paper: *The Impact of Retrieval Strategies on Hallucination and Accuracy in RAG-Based Question Answering*
-
----
 
 ## 📄 License
 
 This project is released for academic and educational purposes only.
-All rights reserved © [Your Name], 2025.
+All rights reserved © Ahmad Abdullah, 2025.
 
 ---
