@@ -145,11 +145,10 @@ pip install transformers datasets torch sentence-transformers scikit-learn nltk 
 
 ## 👩‍💻 Author
 
-**[Your Name]**
-University of Trier – Department of Economics
-Module: [Course Code or Name]
+**[Ahmad Abdullah]**
+University of Trier – Department of Computerlinguistik und Digital Humanities
+Module: [Natural Language Processing]
 Term Paper: *The Impact of Retrieval Strategies on Hallucination and Accuracy in RAG-Based Question Answering*
-Submission Date: 30 September 2025
 
 ---
 
