@@ -1,0 +1,18 @@
+{
+  "dataset_selection": "v1",
+  "num_validation_examples": 500,
+  "top_k": 5,
+  "max_context_tokens": 500,
+  "max_new_tokens": 60,
+  "llm_model": "EleutherAI/gpt-neo-125M",
+  "nli_model": "facebook/bart-large-mnli",
+  "semantic_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "device": "cuda",
+  "cuda_available": true,
+  "total_runtime_sec": 1551.0732781887054,
+  "output_files": {
+    "results": "results_faithfulness/retriever_llm_results_20260309_194915.csv",
+    "claims": "results_faithfulness/retriever_llm_claims_20260309_194915.csv",
+    "summary": "results_faithfulness/retriever_llm_summary_20260309_194915.csv"
+  }
+}
