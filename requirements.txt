@@ -1,0 +1,15 @@
+torch
+transformers
+sentence-transformers
+datasets
+scikit-learn
+rouge-score
+sacrebleu
+nltk
+tqdm
+pandas
+numpy
+accelerate
+rank-bm25
+bitsandbytes
+requests

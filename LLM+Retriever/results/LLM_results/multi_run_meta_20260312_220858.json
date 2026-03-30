@@ -1,0 +1,35 @@
+{
+  "dataset_selection": "v1",
+  "num_validation_examples": 100,
+  "top_k_list": [
+    3,
+    5,
+    10
+  ],
+  "hybrid_alpha_list": [
+    0.2,
+    0.5,
+    0.8
+  ],
+  "max_context_tokens": 500,
+  "max_new_tokens": 60,
+  "max_answer_words": 16,
+  "claim_relevance_threshold": 0.45,
+  "claim_min_lexical_overlap": 1,
+  "split_claims_on_conjunctions": false,
+  "min_claim_words": 3,
+  "short_claim_token_heuristic_max": 4,
+  "llm_model": "llama3:latest",
+  "nli_model": "facebook/bart-large-mnli",
+  "semantic_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "device": "cpu",
+  "cuda_available": false,
+  "total_runtime_sec": 965.2746844291687,
+  "output_files": {
+    "results": "results_faithfulness_multi/multi_results_20260312_220858.csv",
+    "claims": "results_faithfulness_multi/multi_claims_20260312_220858.csv",
+    "summary": "results_faithfulness_multi/multi_summary_20260312_220858.csv",
+    "pivot_summary": "results_faithfulness_multi/multi_pivot_summary_20260312_220858.csv",
+    "best_configs": "results_faithfulness_multi/multi_best_configs_20260312_220858.csv"
+  }
+}

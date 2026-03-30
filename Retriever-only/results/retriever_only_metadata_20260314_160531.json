@@ -1,0 +1,52 @@
+{
+  "started_at_epoch": 1773500731.2581377,
+  "finished_at_epoch": 1773501475.809628,
+  "runtime_sec": 744.5514903068542,
+  "dataset_selection": "both",
+  "top_k_list": [
+    3,
+    5,
+    9
+  ],
+  "datasets": {
+    "v1": {
+      "dataset_name": "SQuAD v1",
+      "split": "train",
+      "answerable_only": false,
+      "selected_examples": 20000,
+      "scanned_examples": 20000,
+      "unique_documents": 4463,
+      "k_list": [
+        3,
+        5,
+        9
+      ]
+    },
+    "v2": {
+      "dataset_name": "SQuAD v2",
+      "split": "train",
+      "answerable_only": true,
+      "selected_examples": 20000,
+      "scanned_examples": 26775,
+      "unique_documents": 4567,
+      "k_list": [
+        3,
+        5,
+        9
+      ]
+    }
+  },
+  "hybrid_alpha": 0.5,
+  "dpr_model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "dpr_backend_note": "Dense backend reused from Experiment 2.",
+  "doc_batch_size": 128,
+  "query_batch_size": 128,
+  "hf_cache_dir": null,
+  "local_files_only": true,
+  "device": "cuda",
+  "output_files": {
+    "per_query_csv": "/nfs/home/abdullaha/RAG-experimentation/Retriver-only-exp/results_retriever_only/retriever_only_per_query_20260314_160531.csv",
+    "summary_csv": "/nfs/home/abdullaha/RAG-experimentation/Retriver-only-exp/results_retriever_only/retriever_only_summary_20260314_160531.csv",
+    "metadata_json": "/nfs/home/abdullaha/RAG-experimentation/Retriver-only-exp/results_retriever_only/retriever_only_metadata_20260314_160531.json"
+  }
+}
